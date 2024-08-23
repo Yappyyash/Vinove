@@ -22,7 +22,7 @@ class DetectionConfig(AppConfig):
 #from django.apps import AppConfig (Already called)
 
 class YourAppConfig(AppConfig):
-    name = 'yourapp'
+    name = 'detection'
 
     def ready(self):
-        import yourapp.signals
+        import detection.signals
