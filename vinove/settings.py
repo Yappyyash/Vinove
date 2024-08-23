@@ -144,7 +144,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Error handling using middleWare os for Django env.
 
 MIDDLEWARE = [
-    'yourapp.middleware.ExceptionHandlingMiddleware',
+    'detection.middleware.ExceptionHandlingMiddleware',
 ]
 
 LOGGING = {
